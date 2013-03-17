@@ -1,8 +1,8 @@
 NSThreadBlocks
 ==============
 
-  @copyright Dmitry Ponomarev <demdxx@gmail.com> 2013
-  @license MIT
+    @copyright Dmitry Ponomarev <demdxx@gmail.com> 2013
+    @license MIT
 
 ```objc
 
