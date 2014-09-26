@@ -5,13 +5,12 @@ Pod::Spec.new do |s|
   s.license         = 'MIT'
   s.summary         = 'Extension of the NSThread.'
   s.homepage        = 'https://github.com/demdxx/NSThreadBlocks'
-  s.source          = {:git => 'https://github.com/demdxx/NSThreadBlocks.git', :tag => 'v0.0.1'}
-
+  s.source          = {:git => 'https://github.com/demdxx/NSThreadBlocks.git', :tag => 'v' + s.version.to_s}
 
   s.platform        = :ios
 
   s.source_files    = '*.{h,m}'
   s.requires_arc    = false
 
-  s.ios.frameworks  = 'Foundation'
+  s.frameworks  = 'Foundation'
 end
